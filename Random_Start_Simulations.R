@@ -149,7 +149,7 @@ for(i in 1:(length(id)-1)){
   for(j in (i+1):length(id)){  
     ind2 <- id[j]
     
-    round.contacts <- simul.contacts(all.sims, ind1, ind2) 
+    round.contacts <- simul.contacts(all.sims, ind1, ind2, dist.thresh) 
     contacts <- rbind(contacts, round.contacts) # stores the contact ids, times, and locations for each pair of individuals
   }
 }
