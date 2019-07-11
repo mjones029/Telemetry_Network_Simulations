@@ -16,6 +16,9 @@
 # 5. Calculates both space-time overlap and spatial overlap contacts
 #    (spatial overlap via KDE and UDOI for q24h and q72h sampling levels) to construct sample network edgelists
 
+# Final output: Edgelists for complete and all sample networks, contacts (locations, time, ids) from the complete network, and IDs of sampled individuals at each sampling level
+
+
 # Requires several other functions:
 # a. w.circ.mean.R
 # b. BCRW_sim.R
@@ -248,5 +251,4 @@ for(f in 1:length(pop.sample.levels)){
 # check for any warnings at end of simulation
 warnings()
 
-### Clear environment
-rm(list=ls(all=T))
+# Next step: Calculate complete and sample network metrics using output (edgelists) from this script.
