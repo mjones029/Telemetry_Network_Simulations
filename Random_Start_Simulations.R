@@ -15,8 +15,16 @@
 # 4. Performs population and individual-level sampling (proportion of population sampled, and frequency of fixes)
 # 5. Calculates both space-time overlap and spatial overlap contacts
 #    (spatial overlap via KDE and UDOI for q24h and q72h sampling levels) to construct sample network edgelists
-#
 
+# Requires several other functions:
+# a. w.circ.mean.R
+# b. BCRW_sim.R
+# c. distance.R
+# d. simul.contacts.R
+# e. sample.traj_df.R
+# f. detect.contacts_list.R
+# g. kernel.udoi.R
+# h. sample_and_contact.R (links several other functions to facilitate looping)
 
 
 ##### Clear Environment
