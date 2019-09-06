@@ -62,8 +62,7 @@ source("BCRW_sim.R")
 ### Set parameters and simulate BCRW movement trajectories for a population of individuals
 #-------------------------------------------------------------------------------------------
 
-# The following files were generated in advance for reproducibility. Code for generating these files can be found in GitHub.
-
+# The following files are available in GitHub for reproducibility.
 # set number of clusters
 n.clust <- get(load("Number of Clusters.Rdata")) # read in dataset for number of clusters
 n.clust <- n.clust[sim] # set number of clusters for this simulation
