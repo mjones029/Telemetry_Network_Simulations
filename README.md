@@ -49,4 +49,4 @@ The "H15", "H34", "H60", "SAC1", "SAC3", and "SAC4" notations indicate different
 
 ## Other notes:
 
-File naming system has been removed from all scripts. To insert personal file naming system, search any given R file for "<insert naming structure>" to identify locations where a file name is needed.
+File naming system has been removed from all scripts. To insert personal file naming system, search any given R file for "insert naming structure" to identify locations where a file name is needed.
