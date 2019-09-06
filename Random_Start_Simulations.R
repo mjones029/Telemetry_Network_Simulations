@@ -169,7 +169,7 @@ for(i in 1:(length(id)-1)){
 # extract edge list from contact data and save
 edge.list <- data.frame(contacts$id, contacts$id.2)
 edge.list <- droplevels(unique(edge.list))
-colnames(edge.list) <- c("puma.1","puma.2")
+colnames(edge.list) <- c("individual.1","individual.2")
 if(nrow(edge.list)==0){edge.list[1,] <- NA}
 # save data about simulation/contacts for later subsetting
 edge.list$value <- NA
