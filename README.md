@@ -4,6 +4,8 @@ Code and data for simulating impact of telemetry sampling on contact network est
 ## Workflow order:
 ## 1. Random_Start_Simulations.R
 
+https://zenodo.org/badge/196413472.svg
+
 Movement simulations are generated in random, lattice, or clustered spatial configurations.
 
 "Random_Start_Simulations.R" shows full code for generating movement trajectories, detecting contacts, and "telemetry" sampling from trajectories.
