@@ -1,7 +1,7 @@
 # Telemetry_Network_Simulations
 Code and data for simulating impact of telemetry sampling on contact network estimation.
 
-https://zenodo.org/badge/196413472.svg
+https://zenodo.org/badge/latestdoi/196413472
 
 ## Workflow order:
 ## 1. Random_Start_Simulations.R
